@@ -15,23 +15,16 @@ def yes_no(question):
             print("Please enter yes / no")
 
 def instructions():
-    print("instructions go here")
-    print
-
+    print("**** how to play ****")
+    print()
+    print("the rules of the game go here")
+    print()
+    return""
 played_before = yes_no("have you played before ?  ")
 
 
 if played_before == "no":
     instructions()
-
-
-
-
-
-
-
-
-
 
 
 
